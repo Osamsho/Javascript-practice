@@ -3,7 +3,7 @@
 // while (i < 10) {
 //     console.log(i);
 //         if (i == 5) {
-//             break;
+//             break; //break collapse the iteration.
 //         }
 //     i++;
 // }
@@ -13,7 +13,7 @@
 
 // BREAK FOR Array...
 
-var numbers = [54, 35, 21, 76, 98, 23, 101, 45, 67, 110];
+// var numbers = [54, 35, 21, 76, 98, 23, 101, 45, 67, 110];
 
 //             for (i = 0; i < numbers.length; i++){
 //                 var number = numbers[i];
@@ -27,15 +27,15 @@ var numbers = [54, 35, 21, 76, 98, 23, 101, 45, 67, 110];
 
 // CONTINUE is equivalent to SKIP ... continue; 'continue' skipps the matched-condition..
 
-for (i = 0; i < numbers.length; i++) {
-    var number = numbers[i];
-   //console.log(number);
+// for (i = 0; i < numbers.length; i++) {
+//     var number = numbers[i];
+//    //console.log(number);
     
-    if (number > 90) {
-        continue;
-    }
-    console.log(number);
+//     if (number > 90) {
+//         continue;
+//     }
+//     console.log(number);
     
-}
+// }
 
 

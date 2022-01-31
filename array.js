@@ -95,3 +95,25 @@
 
 // }
 
+
+                // 8. ARRAY AND CONDITIONAL ................  if an element exists or not...
+
+
+// var langs = ['html', 'css', 'java', 'javascript', 'python']; 
+
+//              // Ex-1 . . .
+
+// if (langs.indexOf('css') != -1) {
+//     console.log('Wow! I got it!');
+//     console.log('Index of that banchod is:', langs.indexOf('css'));
+// }
+
+
+            // Ex - 2..... 
+
+// if (langs.indexOf('fortran') == -1) { // put any name instead of fortran , and check....
+//     console.log('fortran does not exists');
+// }
+// else {
+//     console.log('The Index of fortran is:', langs.indexOf('fortran'));
+// }
