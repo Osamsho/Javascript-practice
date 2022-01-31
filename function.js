@@ -38,3 +38,76 @@
 // var result = addNumber(10, 12);
 // console.log(result);
 // console.log(typeof(result));
+
+                        //5. INCHE TO FEET BY Function.... 
+
+
+// function inchToFeet(inch) {
+//         let feet = inch / 12;
+//         return feet;
+//     }
+    
+//     var myInches = 135;
+//     var feet = inchToFeet(myInches);
+//     console.log(feet);
+    
+//     var dadaInches = 822;
+//     var feet = inchToFeet(dadaInches);
+//     console.log(feet);
+    
+//     var nanaInches = 190;
+//     var feet = inchToFeet(nanaInches);
+//     console.log(feet);
+    
+
+// 6. eXAMPLE ... Even and odd determiation... 
+
+// function isEven(number) {
+//         if (number % 2 == 0) {
+//                 // console.log('The number is even');
+//                 return true;
+//         }
+//         else {
+//                 return false;
+//         }
+// }
+
+
+//         console.log(isEven(145));
+
+
+                        // 7. Example- Know the factorial of a Number.... 
+
+// function getFactorial(number) {
+//         var factorial = 1;
+        
+// for (i = 1; i <= number; i++){
+//         // var factorial = 1; Remove comment and see!
+//     var factorial = factorial * i;
+//     }
+//     return factorial;
+// }
+
+
+// var product = getFactorial(10);
+// console.log('Factorial of given number is:', product);
+
+
+// 8. GET FACTORIAL USING decrementing WHILE LOOP...... Can be done with for loop, too.
+
+function getFactorial(number) {
+        let factorial = 1;
+        let i = number;
+        while (i >= 1) {
+                factorial = factorial * i;
+                i--;
+        }
+        return factorial;
+}
+
+let product = getFactorial(4);
+console.log(product);
+
+
+
+        // write a program using function to get leap year!!! 
