@@ -95,19 +95,47 @@
 
 // 8. GET FACTORIAL USING decrementing WHILE LOOP...... Can be done with for loop, too.
 
-function getFactorial(number) {
-        let factorial = 1;
-        let i = number;
-        while (i >= 1) {
-                factorial = factorial * i;
-                i--;
-        }
-        return factorial;
-}
+// function getFactorial(number) {
+//         let factorial = 1;
+//         let i = number;
+//         while (i >= 1) {
+//                 factorial = factorial * i;
+//                 i--;
+//         }
+//         return factorial;
+// }
 
-let product = getFactorial(4);
-console.log(product);
+// let product = getFactorial(4);
+// console.log(product);
 
 
 
-        // write a program using function to get leap year!!! 
+        //9. write a program using function to get leap year!!! 
+
+// function getLeapYear(year) {
+//         if (year % 4 == 0 && year % 100 !== 0 || year % 400 == 0) {
+//                 console.log('Leap Year');
+//                 }
+//                 else{
+//                 console.log('Not Leap Year')
+//         }
+//         return year;
+// }
+        
+// getLeapYear(4800);
+
+                        // 10. COMPOUND INTEREST CALCULATION.... 
+
+// function getInterest(capital, year, percentage) {
+//         let interestWithCapital = capital * ((1 + percentage) ** year);
+//         let total1 = interestWithCapital.toFixed(2);
+//         console.log('Interest with capital is', total1);
+
+//         let onlyInterest = interestWithCapital - capital;
+//         let total2= onlyInterest.toFixed(2);
+//         console.log('The Interest is', total2);
+
+//         return;
+// }
+
+// getInterest(5900, 4, 0.08);
