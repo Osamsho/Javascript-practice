@@ -37,4 +37,24 @@
 
 // 5. GET FACTORIAL USING WHILE LOOP...... 
 
+
+        // 6. FIND FIBONACCI USING SERIES USING A FOR LOOP . . . . 
+        // fibonacci series = 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...... 
             
+/* 
+3rd = 2th + 1th;
+4th = 3rd + 2th;
+5th = 4th + 3rd;
+nth = (n-1)th + (n-2)th;
+ith = (i-1)th + (i-2)th;
+ */
+
+/* const fibo = [0, 1];
+for (let i = 2; i <= 30; i++){
+
+    // ith = (i-1)th + (i-2)th; 
+    fibo[i] = fibo[i - 1] + fibo[i - 2];
+    
+}
+console.log(fibo); */
+

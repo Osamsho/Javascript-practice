@@ -117,3 +117,81 @@
 // else {
 //     console.log('The Index of fortran is:', langs.indexOf('fortran'));
 // }
+
+
+            // 9. SUM OF ALL NUMBERS IN AN ARRAY .. . . 
+
+// var numbers = [456, 573, 67, 693, 894, 234];
+
+// EX-1
+
+// var addition = 0; // if it is declared within the loop, each time program is running, will make its value zero.
+// for (i = 0; i < numbers.length; i++){
+    
+//     addition = addition + numbers[i]; // no need to declare it 'var or cont' anymore.
+//     //Don't declare const within a loop
+// }
+// console.log('The addition is:', addition);
+
+
+
+// EX-2   . .  .   Same problem with function .. . . . . . . . .
+
+
+    //parameter will take the array name.
+
+
+
+// function arrayTotal(numbers) {
+//     let addition = 0;
+//     for (i = 0; i < numbers.length; i++){
+//         addition = addition + numbers[i];
+//         // DON'T DECLARE 'return' WITHIN THE LOOP... OTHERWISE, YHE LOOP WILL RETURN THINGS ONCE EXECUTED..
+//     }
+//     return addition;
+// }
+// const numbers = [2, 3, 6, 5, 4, 8, 7];
+
+// method-1
+// const summation = arrayTotal(numbers);
+// console.log(summation);
+
+// method-2
+// const summation = arrayTotal([2, 3, 6, 5, 4, 8, 7]);// here,THE ARRAY TAKES THE parameter name 'numbers' itself.
+// console.log(summation);
+
+                // 10. LARGEST NUMBER OF AN ARRAY WITH FUNCTION
+    
+// function getLargestElement(numbers) {
+//     let largestAge = numbers[0];
+//     for (i = 0; i < numbers.length; i++){
+//         let element = numbers[i];
+//         if (element>largestAge) {
+//             largestAge = element;
+//         }
+//     }
+//     return largestAge;
+// }
+
+// const ages = [34, 25, 76, 12, 89, 47, 23, 45];
+// const oldest = getLargestElement(ages);
+// console.log('oldest:', oldest);
+
+            // FIND SMALLEST NUMBER FROM AN ARRAY . . . . . . 
+
+// function getSmallest(arr) {
+//     let smallestNumber = arr[0];
+
+//     for (i = 0; i < arr.length; i++){
+//         if (smallestNumber > arr[i]) {
+//             smallestNumber = arr[i];
+//             //console.log(smallestNumber);
+//         }
+//     }
+//     return smallestNumber;
+// }
+
+// const arr = [2, 5, -7, -28, 57, 83, -45, 5];
+// const smallest = getSmallest(arr);
+// console.log(smallest);
+

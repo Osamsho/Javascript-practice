@@ -139,3 +139,47 @@
 // }
 
 // getInterest(5900, 4, 0.08);
+
+
+                        // 10. FIBONACCI SERIES  . . . . . 
+                         
+/* function fibonacchiSeries(numberOfElelments) {
+        const fibo = [0, 1];
+        for (let i = 2; i <= numberOfElelments; i++){
+                fibo[i] = fibo[i - 1] + fibo[i - 2];
+        }
+        return fibo;
+}      
+
+const fibonacchi = fibonacchiSeries(13);
+console.log(fibonacchi); */
+
+// INPUT VALIDATION 
+
+/* function fibonacchiSeries(numberOfElelments) {
+
+        if (typeof numberOfElelments != 'number') {
+                return 'Error! please give a number';
+        }
+        
+        if (numberOfElelments < 2) {
+                return 'Error! put a number that is greater than 2';
+        }
+
+        const fibo = [0, 1];
+        for (let i = 2; i <= numberOfElelments; i++){
+                fibo[i] = fibo[i - 1] + fibo[i - 2];
+        }
+        return fibo;
+}      
+
+const fibonacchi = fibonacchiSeries(5);
+console.log(fibonacchi); */
+
+
+// moja 
+/* function add(a, b) {
+        return a + b;
+}
+console.log(add("adam" + "eve")); */
+
